@@ -27,7 +27,7 @@
       name: python3-pip
       state: present
 
-  - name: install docker.py module
+  - name: install docker module
     pip:
-      name: docker-py
+      name: docker
       state: present
